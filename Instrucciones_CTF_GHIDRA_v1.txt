@@ -29,7 +29,7 @@ Explorar el binario con Ghidra, identificar las técnicas usadas, reconstruir lo
 
 - `CTF_GHIDRA_v1` → binario ELF estático con los 4 retos
 - `banderas.txt` → archivo que debes rellenar con las banderas encontradas
-
+- `estego.jpg` → imagen parte de un reto
 ---
 
 🧪 Cómo participar
