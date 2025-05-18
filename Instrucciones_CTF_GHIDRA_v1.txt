@@ -1,0 +1,61 @@
+###############################################
+#        CTF - Análisis con Ghidra v1         #
+#           Autor: Manuel Flores              #
+#         Versión: CTF_GHIDRA_v1              #
+###############################################
+
+Este reto ha sido diseñado como una herramienta didáctica para quienes comienzan en el análisis de binarios ELF utilizando Ghidra. A través de 4 retos encadenados dentro del mismo ejecutable, se plantean escenarios basados en técnicas reales de ocultamiento, codificación, exfiltración y otras formas comunes de evasión, sin que ninguna de las instrucciones maliciosas se ejecute realmente.
+
+---
+
+🧠 Objetivo
+
+Explorar el binario con Ghidra, identificar las técnicas usadas, reconstruir los datos ocultos y recuperar 4 banderas (`flags`). El propósito es que puedas familiarizarte con los conceptos básicos del reversing, el análisis estático, lectura de secciones `.rodata`, seguimiento de flujos, y reconstrucción de strings ofuscados.
+
+---
+
+📌 Requisitos
+
+- Ghidra (versión 10 o superior recomendada)
+- Linux (x86_64) para ejecutar el ELF
+- Herramientas estándar como:
+  - `strings`
+  - `base64`
+  - `echo`
+
+---
+
+📦 Archivos adjuntos
+
+- `CTF_GHIDRA_v1` → binario ELF estático con los 4 retos
+- `banderas.txt` → archivo que debes rellenar con las banderas encontradas
+
+---
+
+🧪 Cómo participar
+
+1. Ejecuta el binario:
+   ```bash
+   chmod +x CTF_GHIDRA_v1
+   ./CTF_GHIDRA_v1
+   ```
+
+2. Observa las instrucciones que imprime. Simulan comandos maliciosos usados comúnmente en ataques reales (uso de `base64`, `curl`, creación de archivos, exfiltración de texto, etc.).
+
+3. Abre el binario en Ghidra, analiza las funciones `reto1`, `reto2`, `reto3`, `reto4`, y encuentra los datos ocultos siguiendo las transformaciones internas.
+
+4. Escribe cada bandera que encuentres en el archivo `banderas.txt`, una por línea, en el orden correcto (reto1, reto2, reto3, reto4).
+
+5. Al finalizar de reunir las banderas ejecuta nuevamente, si encontraste todas las pistas correctamente al final debe desbloquearte una imagen que marca la linea de meta.
+
+---
+
+⚠️ Nota importante
+
+Este binario no ejecuta código malicioso real. Todas las acciones son simuladas mediante `printf()` o declaraciones sin efectos directos. Las instrucciones tipo `curl`, `base64`, etc., son únicamente representativas de técnicas reales, pero no se llevan a cabo. Es seguro ejecutarlo en tu máquina local.
+
+---
+
+Creado por Manuel Eduardo Flores Cruz  
+Cualquier comentario o adicional al correo: 31m4numx@gmail.com  
+www.linkedin.com/in/31m4nu
