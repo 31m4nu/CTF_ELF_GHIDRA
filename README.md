@@ -2,7 +2,7 @@
 
 Repositorio con un binario ELF estático diseñado para practicar análisis estático y reversing con Ghidra. Contiene 4 retos progresivos que simulan técnicas utilizadas por binarios maliciosos reales, como ofuscación de datos, exfiltración encubierta, transformación bitwise y ocultamiento en memoria.
 
-Este proyecto está dirigido a quienes desean aprender a utilizar Ghidra para análisis de seguridad ofensiva, desarrollar criterio de análisis, y entrenarse con ejemplos funcionales y realistas sin riesgo de ejecutar código malicioso real.
+Este proyecto está dirigido a quienes desean aprender a utilizar Ghidra para análisis de malware, desarrollar criterio de análisis, y entrenarse con ejemplos funcionales y realistas sin riesgo de ejecutar código malicioso real.
 
 ---
 
@@ -18,7 +18,6 @@ El objetivo es desarrollar habilidades de análisis estático usando Ghidra, com
 - `banderas.txt`: Archivo vacío para registrar cada bandera encontrada, una por línea, en orden.
 - `README_CTF_GHIDRA_v1.txt`: Instructivo completo para ejecutar el reto.
 - `estego.png`: Imagen utilizada en uno de los retos como parte de la simulación de datos ocultos.
-- (Opcional) `solucion.pdf`: Documento con la resolución guiada paso a paso del reto.
 
 ---
 
@@ -38,7 +37,7 @@ El objetivo es desarrollar habilidades de análisis estático usando Ghidra, com
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tuusuario/CTF_ELF_GHIDRA.git
+   git clone https://github.com/31m4nu/CTF_ELF_GHIDRA.git
    cd CTF_ELF_GHIDRA
    ```
 
@@ -52,17 +51,19 @@ El objetivo es desarrollar habilidades de análisis estático usando Ghidra, com
 
 4. Coloca las banderas descubiertas, una por línea, en el archivo `banderas.txt`.
 
+5. Comparte el conocimiento!!!
+
 ---
 
 ## ❗ Advertencia
 
-Este binario **no ejecuta acciones maliciosas reales**. Todas las instrucciones que simulan comandos como `curl`, `base64`, o `fopen()` son solo `printf()` o estructuras pasivas. Está diseñado para fines educativos.
+Este binario no ejecuta acciones maliciosas reales. Todas las instrucciones que simulan comandos como `curl`, `base64`, o `fopen()` son solo `printf()` o estructuras pasivas. Está diseñado para fines educativos.
 
 ---
 
 ## 🧑‍💻 Autor
 
-Creado por **Manuel Eduardo Flores Cruz**  
+Creado por Manuel Eduardo Flores Cruz  
 📧 31m4numx@gmail.com  
 🔗 [linkedin.com/in/31m4nu](https://www.linkedin.com/in/31m4nu)
 
