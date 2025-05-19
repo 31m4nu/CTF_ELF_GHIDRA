@@ -62,10 +62,12 @@ Este binario no ejecuta acciones maliciosas reales. Todas las instrucciones que 
 Aunque este binario ha sido creado con fines educativos y no contiene comportamientos maliciosos reales, se trata de un archivo ELF ejecutable que simula técnicas de ocultamiento, por lo que su ejecución debe realizarse únicamente en entornos controlados, como máquinas virtuales o laboratorios aislados.
 No se recomienda ejecutar archivos ELF desconocidos directamente sobre sistemas de uso diario o producción.
 Antes de cualquier análisis dinámico, se recomienda verificar que el hash del archivo binario coincida con el proporcionado, asegurando así su integridad y origen legítimo.
-Hash oficial del binario:
+
+  ```bash
+   Hash oficial del binario:
 Nombre del archivo: CTF_GHIDRA_v1
 SHA256: 65d231c0da1ed6108b4a6f27a5aeb8e9fd0f550df408c2885029e8788977ad37
-
+   ```
 ---
 
 ## 🧑‍💻 Autor
