@@ -66,7 +66,7 @@ Antes de cualquier análisis dinámico, se recomienda verificar que el hash del 
   ```bash
    Hash oficial del binario:
 Nombre del archivo: CTF_GHIDRA_v1
-SHA256: 65d231c0da1ed6108b4a6f27a5aeb8e9fd0f550df408c2885029e8788977ad37
+SHA256: 8496a1da37d5cc98706a2bb46b0ffcee5741bcc71496e408494b855772c3b2e0
    ```
 ---
 
